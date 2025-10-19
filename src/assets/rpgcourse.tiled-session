@@ -7,8 +7,20 @@
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "durotar.json": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 421,
+                "y": 326
+            }
+        },
+        "durotar.json#tiles": {
+            "scaleInDock": 1
+        }
     },
     "last.imagePath": "F:/MatchGameJS/RpgProject/rpgcourse/src/assets",
+    "map.fixedSize": false,
     "map.lastUsedFormat": "json",
     "openFiles": [
     ],
