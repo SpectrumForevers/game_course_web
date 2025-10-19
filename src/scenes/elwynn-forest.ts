@@ -27,6 +27,12 @@ export class ElwynnForest extends Phaser.Scene{
 
         this.cameras.main.startFollow(this.player);
         this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
+
+        this.physics.world.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
+        this.player.setCollideWorldBounds(true);
+
+        this.physics.add.collider(this.player, wallsLayer);
+        wallsLayer.setCollisionByExclusion([-1]);
     }
     update(time: number, delta: number): void {
         this.player.update(delta);
